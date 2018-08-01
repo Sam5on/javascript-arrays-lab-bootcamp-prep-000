@@ -27,4 +27,5 @@ function appendKitten (name) {
 function prependKitten(name) {
   var newkittens = kittens.slice(0)
   newkittens.unshift(name);
+  return newkittens;
 }
